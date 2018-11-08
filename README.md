@@ -25,7 +25,7 @@ Vulnerability #2:SQL Injection
 
 ## Green
 
-Vulnerability #1: XXS
+Vulnerability #1: XSS
  <img src="https://i.imgur.com/yxkXj8w.gif" width="800">
 
 Vulnerability #2:User Enumeration
